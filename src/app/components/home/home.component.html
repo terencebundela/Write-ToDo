@@ -1,0 +1,26 @@
+<div class="container-fluid" style="background-color: #7678ed;">
+<div class="row mx-auto d-flex justify-content-center align-items-center vh-100">
+  <div class="col-md-6 h-75 shadow-lg rounded-5" style="background-color: #e9c46a;">
+    <div class="d-flex justify-content-center align-items-center ">
+      <img src="assets/Checklist.png" alt="Checklist" width="500px">
+    </div>
+    <div class="mt-3 mx-auto text-center">
+      <label class="fs-3" for="name">Welcome! Please enter your name to begin:</label><br>
+      <input [(ngModel)] = "inputValue" class="name w-25 mt-4 text-center" type="text" id="name" > <br>
+      <button class="btn btn-dark mt-4" (click)="onSubmit()">Submit</button>
+    </div>
+  </div>
+  <div class="col-md-6 h-75 shadow-lg rounded-5" style="background-color: #e9c46a;">
+    <div class="w-50 d-flex justify-content-center align-items-center p-5">
+      <i class="fa-solid fa-pen-to-square fs-1"></i><span class="mx-2 fs-3">Write ToDo</span>
+    </div>
+    <div class="p-5 text-center">
+      <h2>Organize, Prioritize, and accomplish - anywhere, anytime</h2>
+      <p class="mt-4">Get things done with ease: Your perfect Todo App</p>
+    </div>
+    <div class=" text-center p-5 fs-1">
+      <i class="fa-solid fa-check-to-slot"></i>
+    </div>
+  </div>
+</div>
+</div>
